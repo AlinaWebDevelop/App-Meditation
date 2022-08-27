@@ -1,0 +1,35 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 30px;
+    background: linear-gradient(to right, #ACB6E5, #f0f3f5);
+    font-weight: bold;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+@media all and (max-width:500px) {
+    #myVideo {
+        position: fixed;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -10;
+    }
+}
+
